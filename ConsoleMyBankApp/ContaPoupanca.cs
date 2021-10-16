@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleMyBankApp
 {
-    public class ContaCorrente : Conta
-    {      
-        public ContaCorrente(Cliente titular, int agencia, int conta)
+    public class ContaPoupanca : Conta
+    {
+        public ContaPoupanca(Cliente titular, int agencia, int conta)
         {
             this.setTitular(titular);
             this.setAgencia(agencia);
